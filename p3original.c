@@ -15,7 +15,7 @@ int sum_n(int n)
   }
   return sum;
 }
-void output(int n, int sum)
+void output(iunt n, int sum)
 {
   int i;
   for(i=1;i<n;i++)
