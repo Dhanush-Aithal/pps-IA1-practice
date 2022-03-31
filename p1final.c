@@ -4,7 +4,7 @@ void input(int *a,int *b)
    printf("Enter two numbers to be added \n");
    scanf("%d%d", a,b);
 }
-void add (int a ,int b , int *sum)
+void add (int a ,int b ,int *sum)
 {
   *sum=a+b;
 }
