@@ -3,7 +3,7 @@ int input()
 {
   int a;
   printf("Enter the numbers to be compared\n");
-  scanf("%d,",&a);
+  scanf("%d",&a);
   return a;
 }
 int cmp(int a, int b , int c)
