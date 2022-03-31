@@ -18,13 +18,13 @@ float my_sqrt(float n)
   }
   return a;
 }
-void output(float n ,float sqrt_result)
+void output(float n,float sqrt_result)
 {
   printf("square root of %f is %f\n",n,sqrt_result);
 }
 int main ()
 {
-  float n ,sqrt_result;
+  float n,sqrt_result;
   n= input();
   sqrt_result=my_sqrt(n);
   output(n,sqrt_result);
