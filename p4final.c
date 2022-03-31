@@ -23,7 +23,7 @@ int sum_n_arrays(int n,int a[n])
  }
  return sum;
 }
-void output(int n, int a[n], int sum)
+void output(int n,int a[n],int sum)
 {
  for(int i=0;i<n-1;i++)
  {
